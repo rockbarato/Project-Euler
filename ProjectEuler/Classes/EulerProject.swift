@@ -8,15 +8,18 @@
 
 import Foundation
 
+private var problemList: [EulerProblem] = []
+
 class EulerProject {
 	
-	var problems[]
-	
-	func run() {
-		
+	class func run() {
+		for problem in problemList {
+			let result = problem.run()
+			print("Problem #\(problem.number): \(result)")
+		}
 	}
 	
-	func register() {
-		
+	class func register() {
+		problemList.append(Problem1())
 	}
 }

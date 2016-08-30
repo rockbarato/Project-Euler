@@ -17,6 +17,8 @@ import Foundation
 */
 class Problem1: EulerProblem {
 	
+	let number: Int = 1
+	
 	func run() -> Int {
 		
 		var sum = 0

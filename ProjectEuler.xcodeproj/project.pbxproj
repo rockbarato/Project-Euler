@@ -12,6 +12,9 @@
 		DC6D42021D6E4B9700B26579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6D42001D6E4B9700B26579 /* Main.storyboard */; };
 		DC6D42041D6E4B9800B26579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6D42031D6E4B9800B26579 /* Assets.xcassets */; };
 		DC6D42071D6E4B9800B26579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6D42051D6E4B9800B26579 /* LaunchScreen.storyboard */; };
+		DCFC00281D7533EA007CC36F /* EulerProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC00271D7533EA007CC36F /* EulerProject.swift */; };
+		DCFC002A1D7533F3007CC36F /* EulerProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC00291D7533F3007CC36F /* EulerProblem.swift */; };
+		DCFC002C1D7535FF007CC36F /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC002B1D7535FF007CC36F /* Problem1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		DC6D42031D6E4B9800B26579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC6D42061D6E4B9800B26579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC6D42081D6E4B9800B26579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCFC00271D7533EA007CC36F /* EulerProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EulerProject.swift; sourceTree = "<group>"; };
+		DCFC00291D7533F3007CC36F /* EulerProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EulerProblem.swift; sourceTree = "<group>"; };
+		DCFC002B1D7535FF007CC36F /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,65 @@
 		DC6D41FB1D6E4B9700B26579 /* ProjectEuler */ = {
 			isa = PBXGroup;
 			children = (
+				DCFC00261D7533D0007CC36F /* Classes */,
+				DCFC00241D7533B6007CC36F /* Problems */,
+				DCFC00231D7533A9007CC36F /* Controllers */,
+				DCFC00211D75337F007CC36F /* Resources */,
+				DCFC00201D753375007CC36F /* AppDelegate */,
+				DCFC00221D753398007CC36F /* Supporting Files */,
+			);
+			path = ProjectEuler;
+			sourceTree = "<group>";
+		};
+		DCFC00201D753375007CC36F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				DC6D41FC1D6E4B9700B26579 /* AppDelegate.swift */,
-				DC6D41FE1D6E4B9700B26579 /* ViewController.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DCFC00211D75337F007CC36F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				DC6D42001D6E4B9700B26579 /* Main.storyboard */,
 				DC6D42031D6E4B9800B26579 /* Assets.xcassets */,
 				DC6D42051D6E4B9800B26579 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DCFC00221D753398007CC36F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				DC6D42081D6E4B9800B26579 /* Info.plist */,
 			);
-			path = ProjectEuler;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCFC00231D7533A9007CC36F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC6D41FE1D6E4B9700B26579 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DCFC00241D7533B6007CC36F /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC002B1D7535FF007CC36F /* Problem1.swift */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		DCFC00261D7533D0007CC36F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DCFC00271D7533EA007CC36F /* EulerProject.swift */,
+				DCFC00291D7533F3007CC36F /* EulerProblem.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +193,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC6D41FF1D6E4B9700B26579 /* ViewController.swift in Sources */,
+				DCFC002C1D7535FF007CC36F /* Problem1.swift in Sources */,
+				DCFC002A1D7533F3007CC36F /* EulerProblem.swift in Sources */,
 				DC6D41FD1D6E4B9700B26579 /* AppDelegate.swift in Sources */,
+				DCFC00281D7533EA007CC36F /* EulerProject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +346,7 @@
 				DC6D420D1D6E4B9800B26579 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
