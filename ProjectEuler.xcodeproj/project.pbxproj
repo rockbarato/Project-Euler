@@ -15,6 +15,7 @@
 		DCE48FF01D754063007AAFE9 /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE48FEF1D754063007AAFE9 /* Problem2.swift */; };
 		DCE48FF21D754091007AAFE9 /* Boilerplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE48FF11D754091007AAFE9 /* Boilerplate.swift */; };
 		DCE48FF41D7548E1007AAFE9 /* Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE48FF31D7548E1007AAFE9 /* Problem3.swift */; };
+		DCE48FF61D754F4B007AAFE9 /* Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE48FF51D754F4B007AAFE9 /* Problem4.swift */; };
 		DCFC00281D7533EA007CC36F /* EulerProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC00271D7533EA007CC36F /* EulerProject.swift */; };
 		DCFC002A1D7533F3007CC36F /* EulerProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC00291D7533F3007CC36F /* EulerProblem.swift */; };
 		DCFC002C1D7535FF007CC36F /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC002B1D7535FF007CC36F /* Problem1.swift */; };
@@ -31,6 +32,7 @@
 		DCE48FEF1D754063007AAFE9 /* Problem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
 		DCE48FF11D754091007AAFE9 /* Boilerplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boilerplate.swift; sourceTree = "<group>"; };
 		DCE48FF31D7548E1007AAFE9 /* Problem3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem3.swift; sourceTree = "<group>"; };
+		DCE48FF51D754F4B007AAFE9 /* Problem4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem4.swift; sourceTree = "<group>"; };
 		DCFC00271D7533EA007CC36F /* EulerProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EulerProject.swift; sourceTree = "<group>"; };
 		DCFC00291D7533F3007CC36F /* EulerProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EulerProblem.swift; sourceTree = "<group>"; };
 		DCFC002B1D7535FF007CC36F /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				DCFC002B1D7535FF007CC36F /* Problem1.swift */,
 				DCE48FEF1D754063007AAFE9 /* Problem2.swift */,
 				DCE48FF31D7548E1007AAFE9 /* Problem3.swift */,
+				DCE48FF51D754F4B007AAFE9 /* Problem4.swift */,
 				DCE48FF11D754091007AAFE9 /* Boilerplate.swift */,
 			);
 			path = Problems;
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE48FF61D754F4B007AAFE9 /* Problem4.swift in Sources */,
 				DCE48FF01D754063007AAFE9 /* Problem2.swift in Sources */,
 				DCE48FF21D754091007AAFE9 /* Boilerplate.swift in Sources */,
 				DC6D41FF1D6E4B9700B26579 /* ViewController.swift in Sources */,

@@ -14,14 +14,15 @@ class EulerProject {
 	
 	class func run() {
 		for problem in problemList {
-			let result = problem.run()
-			print("Problem #\(problem.number): \(result)")
+			let evaluation: Evaluation = problem.evaluate()
+			print("Problem #\(evaluation.problem): \(evaluation.result) (\(evaluation.elapsedTime))")
 		}
 	}
 	
 	class func register() {
 //		problemList.append(Problem1())
 //		problemList.append(Problem2())
-		problemList.append(Problem3())
+//		problemList.append(Problem3())
+		problemList.append(Problem4())
 	}
 }
