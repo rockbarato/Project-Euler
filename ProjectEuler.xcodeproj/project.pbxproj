@@ -12,6 +12,8 @@
 		DC6D42021D6E4B9700B26579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6D42001D6E4B9700B26579 /* Main.storyboard */; };
 		DC6D42041D6E4B9800B26579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC6D42031D6E4B9800B26579 /* Assets.xcassets */; };
 		DC6D42071D6E4B9800B26579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6D42051D6E4B9800B26579 /* LaunchScreen.storyboard */; };
+		DCE48FF01D754063007AAFE9 /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE48FEF1D754063007AAFE9 /* Problem2.swift */; };
+		DCE48FF21D754091007AAFE9 /* Boilerplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE48FF11D754091007AAFE9 /* Boilerplate.swift */; };
 		DCFC00281D7533EA007CC36F /* EulerProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC00271D7533EA007CC36F /* EulerProject.swift */; };
 		DCFC002A1D7533F3007CC36F /* EulerProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC00291D7533F3007CC36F /* EulerProblem.swift */; };
 		DCFC002C1D7535FF007CC36F /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFC002B1D7535FF007CC36F /* Problem1.swift */; };
@@ -25,6 +27,8 @@
 		DC6D42031D6E4B9800B26579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC6D42061D6E4B9800B26579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC6D42081D6E4B9800B26579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE48FEF1D754063007AAFE9 /* Problem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
+		DCE48FF11D754091007AAFE9 /* Boilerplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boilerplate.swift; sourceTree = "<group>"; };
 		DCFC00271D7533EA007CC36F /* EulerProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EulerProject.swift; sourceTree = "<group>"; };
 		DCFC00291D7533F3007CC36F /* EulerProblem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EulerProblem.swift; sourceTree = "<group>"; };
 		DCFC002B1D7535FF007CC36F /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				DCFC002B1D7535FF007CC36F /* Problem1.swift */,
+				DCE48FEF1D754063007AAFE9 /* Problem2.swift */,
+				DCE48FF11D754091007AAFE9 /* Boilerplate.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE48FF01D754063007AAFE9 /* Problem2.swift in Sources */,
+				DCE48FF21D754091007AAFE9 /* Boilerplate.swift in Sources */,
 				DC6D41FF1D6E4B9700B26579 /* ViewController.swift in Sources */,
 				DCFC002C1D7535FF007CC36F /* Problem1.swift in Sources */,
 				DCFC002A1D7533F3007CC36F /* EulerProblem.swift in Sources */,
