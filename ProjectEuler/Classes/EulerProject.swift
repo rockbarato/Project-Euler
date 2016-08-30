@@ -20,7 +20,8 @@ class EulerProject {
 	}
 	
 	class func register() {
-		problemList.append(Problem1())
-		problemList.append(Problem2())
+//		problemList.append(Problem1())
+//		problemList.append(Problem2())
+		problemList.append(Problem3())
 	}
 }
