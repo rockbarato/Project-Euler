@@ -8,6 +8,9 @@
 
 import Foundation
 
-protocol Problem {
-	func run()
+protocol EulerProblem {
+	
+	var number: Int { get }
+	
+	func run() -> Int
 }
