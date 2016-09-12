@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC18AE421D86E62B00320AA3 /* Problem5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC18AE411D86E62B00320AA3 /* Problem5.swift */; };
 		DC6D41FD1D6E4B9700B26579 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D41FC1D6E4B9700B26579 /* AppDelegate.swift */; };
 		DC6D41FF1D6E4B9700B26579 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6D41FE1D6E4B9700B26579 /* ViewController.swift */; };
 		DC6D42021D6E4B9700B26579 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC6D42001D6E4B9700B26579 /* Main.storyboard */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC18AE401D86E53D00320AA3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC18AE411D86E62B00320AA3 /* Problem5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem5.swift; sourceTree = "<group>"; };
 		DC6D41F91D6E4B9700B26579 /* ProjectEuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectEuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6D41FC1D6E4B9700B26579 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6D41FE1D6E4B9700B26579 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		DC6D41F01D6E4B9700B26579 = {
 			isa = PBXGroup;
 			children = (
+				DC18AE401D86E53D00320AA3 /* README.md */,
 				DC6D41FB1D6E4B9700B26579 /* ProjectEuler */,
 				DC6D41FA1D6E4B9700B26579 /* Products */,
 			);
@@ -119,6 +123,7 @@
 				DCE48FEF1D754063007AAFE9 /* Problem2.swift */,
 				DCE48FF31D7548E1007AAFE9 /* Problem3.swift */,
 				DCE48FF51D754F4B007AAFE9 /* Problem4.swift */,
+				DC18AE411D86E62B00320AA3 /* Problem5.swift */,
 				DCE48FF11D754091007AAFE9 /* Boilerplate.swift */,
 			);
 			path = Problems;
@@ -205,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE48FF61D754F4B007AAFE9 /* Problem4.swift in Sources */,
+				DC18AE421D86E62B00320AA3 /* Problem5.swift in Sources */,
 				DCE48FF01D754063007AAFE9 /* Problem2.swift in Sources */,
 				DCE48FF21D754091007AAFE9 /* Boilerplate.swift in Sources */,
 				DC6D41FF1D6E4B9700B26579 /* ViewController.swift in Sources */,

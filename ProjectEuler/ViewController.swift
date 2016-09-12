@@ -9,15 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
+	
+	let activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView.init(activityIndicatorStyle: .Gray)
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
+	override func viewWillAppear(animated: Bool) {
+		super.viewWillAppear(animated)
 		
+		startLoader()
 		EulerProject.register()
-		EulerProject.run()
-		
+		EulerProject.run {
+			self.stopLoader()
+			print("fug")
+		}
 	}
 
+	func startLoader() {
+		activityIndicator.center = self.view.center
+		activityIndicator.startAnimating()
+		self.view.addSubview(activityIndicator)
+	}
+	
+	func stopLoader() {
+		activityIndicator.stopAnimating()
+		activityIndicator.removeFromSuperview()
+	}
 
 }
 
