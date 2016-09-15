@@ -11,7 +11,7 @@ All solutions are made in Swift 2 with Xcode 7.
 - [x] [#3 - Largest Prime Factor](https://projecteuler.net/problem=3)
 - [x] [#4 - Largest palindrome product](https://projecteuler.net/problem=4)
 - [x] [#5 - Smallest multiple](https://projecteuler.net/problem=5)
-- [ ] [#6 - Sum square difference](https://projecteuler.net/problem=6)
+- [x] [#6 - Sum square difference](https://projecteuler.net/problem=6)
 - [ ] [#7 - 10001st prime](https://projecteuler.net/problem=7)
 - [ ] [#8 - Largest product in a series](https://projecteuler.net/problem=8)
 - [ ] [#9 - Special Pythagorean triplet](https://projecteuler.net/problem=9)
