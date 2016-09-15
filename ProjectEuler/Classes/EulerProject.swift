@@ -17,7 +17,7 @@ class EulerProject {
 	}
 	
 	class func run(_ complete:(() -> ())?) {
-		DispatchQueue.global(priority: DispatchQueue.GlobalQueuePriority.default).async {
+		DispatchQueue.global(qos: .background).async {
 			
 			for problem in problemList {
 				let evaluation: Evaluation = problem.evaluate()
@@ -37,6 +37,7 @@ class EulerProject {
 //		problemList.append(Problem2())
 //		problemList.append(Problem3())
 //		problemList.append(Problem4())
-		problemList.append(Problem5())
+//		problemList.append(Problem5())
+		problemList.append(Problem6())
 	}
 }

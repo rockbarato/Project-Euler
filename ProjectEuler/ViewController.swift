@@ -19,7 +19,6 @@ class ViewController: UIViewController {
 		EulerProject.register()
 		EulerProject.run {
 			self.stopLoader()
-			print("fug")
 		}
 	}
 
