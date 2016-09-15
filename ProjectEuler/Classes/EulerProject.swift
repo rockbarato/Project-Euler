@@ -16,15 +16,15 @@ class EulerProject {
 		EulerProject.run(nil)
 	}
 	
-	class func run(complete:(() -> ())?) {
-		dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0)) {
+	class func run(_ complete:(() -> ())?) {
+		DispatchQueue.global(priority: DispatchQueue.GlobalQueuePriority.default).async {
 			
 			for problem in problemList {
 				let evaluation: Evaluation = problem.evaluate()
 				print("Problem #\(evaluation.problem): \(evaluation.result) (\(evaluation.elapsedTime))")
 			}
 			
-			dispatch_async(dispatch_get_main_queue()) {
+			DispatchQueue.main.async {
 				complete?()
 			}
 		}

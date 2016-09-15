@@ -42,20 +42,20 @@ class Problem4: EulerProblem {
 		return largest
 	}
 	
-	func isPalindrome(number: Int) -> Bool {
+	func isPalindrome(_ number: Int) -> Bool {
 		let string = String(number)
 		
 		return isPalindrome(string)
 	}
 	
-	func isPalindrome(text: String) -> Bool {
-		let chars: [Character] = text.characters.reverse()
+	func isPalindrome(_ text: String) -> Bool {
+		let chars: [Character] = text.characters.reversed()
 		
 		let strings: [String] = chars.flatMap { (character: Character) -> String? in
 			return String(character)
 		}
 		
-		let reverse = strings.joinWithSeparator("")
+		let reverse = strings.joined(separator: "")
 		
 		return reverse == text
 	}
